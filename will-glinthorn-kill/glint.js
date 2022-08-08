@@ -12,7 +12,6 @@ function calculate(){
     } else if(openMana < 2){
         result.textContent = "You need at least two mana to start the loop.";
         result.setAttribute("style", "color: red");
-    }
     } else if(openMana + p1 + p2 + p3 - 2*Math.max(p1, p2, p3) >= 1){
         result.textContent = "The combo will kill";
         result.setAttribute("style", "color: green");
